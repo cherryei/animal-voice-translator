@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+.venv310/
+.venv311/
+env/
+venv/
+ENV/
+
+# Data files (too large for git)
+data/raw/
+data/processed/
+*.pt
+*.bin
+*.wav
+*.mp3
+*.ogg
+*.m4a
+
+# Models (too large)
+models/*.pt
+models/*.bin
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter
+app/.dart_tool/
+app/.packages
+app/build/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
